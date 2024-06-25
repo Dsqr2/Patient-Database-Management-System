@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+/* Navbar.jsx */
+
+.custom-navbar {
+  padding-left: 0;
+  background-color: white;
+} 
+
+.logo {
+  width: 9rem;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #3BB19B;
+}
+
+.navbar-nav .nav-item .nav-link.active-link {
+  color: #3BB19B !important;
+}
+
+
+/* Create.jsx */ /* Update.jsx */
+.h1-custom {
+  font-weight: bold;
+}
+
+.h1-custom:hover {
+  color: #3BB19B;
+}
+
+.custom-form {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px;
+  width: 50%;
+  margin: 2.5rem auto;
+  background-color: white;
+  border: 4px solid #3BB19B;
+  /* border-radius: 10px;  */
+}
+
+.form-label {
+  font-size: 1.25rem;
+}
+
+.form-control {
+  border: 0.125px solid black;
+  border-radius: 0px;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #3BB19B;
+  border: 0px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #3BB19B;
+  border: 2px solid #3BB19B;
+}
+
+/* Read.jsx */
+
+.custom-card-col3 {
+  padding-top: 1rem;
+}
+
+.card-body {
+  border: 2px solid #3BB19B;
+}
+
