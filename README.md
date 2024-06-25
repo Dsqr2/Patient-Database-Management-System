@@ -12,28 +12,28 @@ Data Validation: Ensures all patient data is accurately entered and maintained.
 ## Technology Stack
 - **Frontend:** React.js
 - **Backend:** Node.js and Express.js
-**Database:** MongoDB
-**Styling:** Bootstrap and custom CSS
+- **Database:** MongoDB
+- **Styling:** Bootstrap and custom CSS
 
 ## Installation and Setup
 **Clone the repository:** 
-git clone https://github.com/yourusername/patient-database-management-system.git
+- git clone https://github.com/yourusername/patient-database-management-system.git
 
 **Navigate to the project directory:**
-cd patient-database-management-system
+- cd patient-database-management-system
 
 **Install frontend dependencies:**
-cd frontend
-npm install
+- cd frontend
+- npm install
 
 **Install backend dependencies:**
-cd ../backend
-npm install
+- cd ../backend
+- npm install
 
 **Start the frontend server:**
-cd frontend
-npm start
+- cd frontend
+- npm start
 
 **Start the backend server:**
-cd ../backend
-npm start or npm run dev
+- cd ../backend
+- npm start or npm run dev
