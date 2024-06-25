@@ -17,7 +17,7 @@ Data Validation: Ensures all patient data is accurately entered and maintained.
 
 ## Installation and Setup
 **Clone the repository:** 
-- git clone https://github.com/yourusername/patient-database-management-system.git
+- git clone https://github.com/Dsqr2/Patient-Database-Management-System.git
 
 **Navigate to the project directory:**
 - cd patient-database-management-system
