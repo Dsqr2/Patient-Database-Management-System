@@ -10,8 +10,8 @@ Search Functionality: Easily search for patient records.
 Data Validation: Ensures all patient data is accurately entered and maintained.
 
 ## Technology Stack
--**Frontend:** React.js
--**Backend:** Node.js and Express.js
+- **Frontend:** React.js
+- **Backend:** Node.js and Express.js
 **Database:** MongoDB
 **Styling:** Bootstrap and custom CSS
 
