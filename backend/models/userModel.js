@@ -2,18 +2,31 @@ const mongoose = require("mongoose");
 
 // Create Schema
 const userSchema = new mongoose.Schema({
+    aadhar: {
+        type: String,
+        required: true,
+        unique: true,
+    },
     name: {
         type: String, 
         required: true
     },
     email: {
         type: String,
-        unique: true,
         required: true
     },
-    age: {
-        type: Number, 
-    }
+    mobile: {
+        type: String,
+        required: true,
+    },
+    dob: {
+        type: Date,
+        required: true,
+    },
+    gender: {
+        type: String,
+        required: true,
+    },
 },
 {
     timestamps: true

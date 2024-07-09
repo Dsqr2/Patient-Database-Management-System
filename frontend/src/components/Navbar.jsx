@@ -10,12 +10,12 @@ const navbar = () => {
       </Link>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <Link to="/" class="nav-link" activeClassName="active-link">Create Post</Link>
-          </li>
           <li class="nav-item">
-            <Link to="/read" class="nav-link" activeClassName="active-link">All Post</Link>
+            <Link to="/read" class="nav-link" activeClassName="active-link">Show All Post</Link>
           </li>
+          <Link to="/">
+            <button type="button" className="btn btn-primary navbar-btn">Create New</button>
+          </Link>
         </ul>
       </div>
     </nav>

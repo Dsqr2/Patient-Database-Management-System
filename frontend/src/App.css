@@ -6,12 +6,20 @@
 /* Navbar.jsx */
 
 .custom-navbar {
-  padding-left: 0;
+  padding-left: 0px;
   background-color: white;
 } 
 
 .logo {
   width: 9rem;
+}
+
+.navbar-nav {
+  margin-left: 850px;
+}
+
+.nav-item {
+  padding-right: 70px;
 }
 
 .nav-link {
@@ -62,13 +70,14 @@
   font-size: 18px;
   font-weight: bold;
   background-color: #3BB19B;
-  border: 0px;
+  border: 2px solid white;
 }
 
 .btn:hover {
   background-color: white;
   color: #3BB19B;
   border: 2px solid #3BB19B;
+  box-shadow: 2px 2px 5px 0px #3BB198;
 }
 
 /* Read.jsx */
